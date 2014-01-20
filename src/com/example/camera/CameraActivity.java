@@ -53,7 +53,7 @@ public class CameraActivity extends Activity implements SurfaceHolder.Callback, 
 
 		//SurfaceView中的getHolder方法可以获取到一个SurfaceHolder实例
 		SurfaceHolder holder = surfaceView.getHolder();
-		holder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+		//holder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 		holder.addCallback(this);
 
         ImageView capture = (ImageView) findViewById(R.id.img1);

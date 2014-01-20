@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;  
   
 public class MainActivity extends Activity {  
-    private final static String LOG_TAG = "shy.luo.activity.MainActivity";  
+    private final static String LOG_TAG = "MainActivity";  
   
     private Button startButton = null;  
   
